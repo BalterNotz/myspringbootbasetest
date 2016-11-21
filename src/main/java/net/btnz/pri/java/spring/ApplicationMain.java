@@ -2,6 +2,7 @@ package net.btnz.pri.java.spring;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
+import org.springframework.validation.ObjectError;
 
 import java.text.SimpleDateFormat;
 import java.util.Date;
