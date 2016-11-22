@@ -12,7 +12,9 @@ import java.util.Date;
 @SpringBootApplication
 public class ApplicationMain {
     public static void main(String[] args) {
-        SpringApplication.run(ApplicationMain.class, args);
+        SpringApplication app = new SpringApplication();
+        app.run(ApplicationMain.class, args);
+//        SpringApplication.run(ApplicationMain.class, args);
         System.out.println("Application started at " + new SimpleDateFormat("yyyy-MM-dd HH:mm:ss.SSS").format(new Date()));
     }
 }
