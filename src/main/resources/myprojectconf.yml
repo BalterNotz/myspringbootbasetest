@@ -1,0 +1,12 @@
+name: myspringboot_yml
+appdesc: ${name} is a spring boot application.
+connect:
+    name: connect.name
+    passwd: connect.passwd
+    url: connect.url
+foo:
+    name: foo
+    location:
+        x: x
+        y: y
+    time: time
