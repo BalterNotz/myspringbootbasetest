@@ -21,7 +21,7 @@ public class BaseConfig {
     @Bean
     public EmbeddedServletContainerCustomizer embeddedServletContainerCustomizer() {
         return (ConfigurableEmbeddedServletContainer container) -> {
-            container.setPort(8008);
+            container.setPort(8080);
         };
     }
 }

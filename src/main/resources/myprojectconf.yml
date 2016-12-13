@@ -1,3 +1,4 @@
+log.path: /D:/workspaces/logs/myspringboot
 name: myspringboot_yml
 appdesc: ${name} is a spring boot application.
 connect:
@@ -10,3 +11,7 @@ foo:
         x: x
         y: y
     time: time
+#spring:
+#    profiles:
+#        active: dev, hsqldb
+

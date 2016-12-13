@@ -40,7 +40,9 @@ public class ApplicationMain {
         application.setWebEnvironment(true);
         application.setDefaultProperties(properties);
         application.setAddCommandLineProperties(true);
+        application.setAdditionalProfiles("dev");
         application.run(args);
-        System.out.println("Application started at " + new SimpleDateFormat("yyyy-MM-dd HH:mm:ss.SSS").format(new Date()));
+
+        System.out.println("Application started at " + new SimpleDateFormat("yyyy-MM-dd HH:mm:ss.SSSZ").format(new Date()));
     }
 }
