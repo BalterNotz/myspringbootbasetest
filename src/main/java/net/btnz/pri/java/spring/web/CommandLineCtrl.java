@@ -1,6 +1,8 @@
 package net.btnz.pri.java.spring.web;
 
 import com.alibaba.fastjson.JSON;
+import net.btnz.pri.java.spring.aspect.simple.DemoAnnotationService;
+import net.btnz.pri.java.spring.aspect.simple.DemoMethodService;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 import org.springframework.beans.factory.annotation.Autowired;
@@ -31,6 +33,12 @@ public class CommandLineCtrl implements CommandLineRunner {
 
     @Resource
     private FooCompoent fooCompoent;
+
+    @Resource
+    private DemoMethodService demoMethodService;
+
+    @Resource
+    private DemoAnnotationService demoAnnotationService;
 
     @Value("${name}")
     private String name;
@@ -101,6 +109,15 @@ public class CommandLineCtrl implements CommandLineRunner {
             log.info("Fruit: {}", new String[]{"Orange", "Apple", "Banana"});
         }
         return "log";
+    }
+
+    @RequestMapping(value = "/aspect", method = RequestMethod.GET)
+    public String aspect(){
+        demoAnnotationService.add();
+        demoMethodService.add();
+        System.out.println("---");
+        demoMethodService.addPub();
+        return "Hello World!";
     }
 
     @Override
