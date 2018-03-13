@@ -1,6 +1,6 @@
-package net.btnz.pri.java.spring.cors.ctrl;
+package net.btnz.pri.java.myspringbootbasetest.cors.ctrl;
 
-import net.btnz.pri.java.spring.cors.model.Greeting;
+import net.btnz.pri.java.myspringbootbasetest.cors.model.Greeting;
 import org.springframework.web.bind.annotation.*;
 
 import java.util.concurrent.atomic.AtomicLong;

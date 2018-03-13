@@ -1,4 +1,4 @@
-package net.btnz.pri.java.spring.cors.config;
+package net.btnz.pri.java.myspringbootbasetest.cors.config;
 
 import org.springframework.format.FormatterRegistry;
 import org.springframework.http.converter.HttpMessageConverter;

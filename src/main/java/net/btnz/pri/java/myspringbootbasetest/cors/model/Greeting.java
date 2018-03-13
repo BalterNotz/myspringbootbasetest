@@ -1,6 +1,4 @@
-package net.btnz.pri.java.spring.cors.model;
-
-import sun.reflect.ReflectionFactory;
+package net.btnz.pri.java.myspringbootbasetest.cors.model;
 
 /**
  * Created by zhangsongwei on 2016/11/22.

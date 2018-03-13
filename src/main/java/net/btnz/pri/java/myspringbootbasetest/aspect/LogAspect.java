@@ -1,4 +1,4 @@
-package net.btnz.pri.java.spring.aspect;
+package net.btnz.pri.java.myspringbootbasetest.aspect;
 
 import org.aspectj.lang.annotation.After;
 import org.aspectj.lang.annotation.Aspect;
@@ -19,7 +19,7 @@ public class LogAspect {
     @Resource
     private LogHandler logHandler;
 
-    @Pointcut("execution(* net.btnz.pri.java.spring.aspect.HelloWorld.*(..))")
+    @Pointcut("execution(* net.btnz.pri.java.myspringbootbasetest.aspect.HelloWorld.*(..))")
     public void printLog(){
 
     }

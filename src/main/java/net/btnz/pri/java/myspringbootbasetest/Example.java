@@ -1,4 +1,4 @@
-package net.btnz.pri.java.spring;
+package net.btnz.pri.java.myspringbootbasetest;
 
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RestController;

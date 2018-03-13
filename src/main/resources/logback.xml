@@ -1,7 +1,7 @@
 <configuration scan="true" scanPeriod="60 seconds" debug="true">
-    <property name="appName" value="myspringboot"></property>
+    <property name="appName" value="myspringbootbasetest"></property>
     <timestamp key="time" datePattern="yyyy-MM-dd'T'HH:mm:ss:S"></timestamp>
-    <property name="logpath" value="/D:/workspaces/logs/myspringboot"></property>
+    <property name="logpath" value="./logs/myspringbootbasetest"></property>
     <contextName>${appName}</contextName>
 
     <appender name="stdout" class="ch.qos.logback.core.ConsoleAppender">
@@ -56,7 +56,7 @@
         </rollingPolicy>
     </appender>
 
-    <logger name="net.btnz.pri.java.spring" level="info" additivity="false">
+    <logger name="net.btnz.pri.java.myspringbootbasetest" level="info" additivity="false">
         <appender-ref ref="oneLogfile"></appender-ref>
         <appender-ref ref="rollingLogFile"></appender-ref>
         <appender-ref ref="infoLogFile"></appender-ref>

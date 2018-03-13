@@ -1,4 +1,4 @@
-package net.btnz.pri.java.spring.web;
+package net.btnz.pri.java.myspringbootbasetest.web;
 
 /**
  * Created by zhangsongwei on 2016/12/12.

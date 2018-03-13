@@ -1,4 +1,4 @@
-package net.btnz.pri.java.spring.web;
+package net.btnz.pri.java.myspringbootbasetest.web;
 
 import org.springframework.boot.context.properties.ConfigurationProperties;
 import org.springframework.boot.context.properties.EnableConfigurationProperties;

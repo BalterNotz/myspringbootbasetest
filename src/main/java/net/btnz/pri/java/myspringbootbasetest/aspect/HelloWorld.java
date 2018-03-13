@@ -1,4 +1,4 @@
-package net.btnz.pri.java.spring.aspect;
+package net.btnz.pri.java.myspringbootbasetest.aspect;
 
 /**
  * Created by zhangsongwei on 2016/12/30.

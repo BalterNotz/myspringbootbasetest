@@ -1,6 +1,6 @@
-package net.btnz.pri.java.spring;
+package net.btnz.pri.java.myspringbootbasetest;
 
-import net.btnz.pri.java.spring.cors.config.WebMvcConfigUtil;
+import net.btnz.pri.java.myspringbootbasetest.cors.config.WebMvcConfigUtil;
 import org.springframework.boot.context.embedded.ConfigurableEmbeddedServletContainer;
 import org.springframework.boot.context.embedded.EmbeddedServletContainerCustomizer;
 import org.springframework.context.annotation.Bean;

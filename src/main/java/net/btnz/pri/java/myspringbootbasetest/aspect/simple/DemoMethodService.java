@@ -1,4 +1,4 @@
-package net.btnz.pri.java.spring.aspect.simple;
+package net.btnz.pri.java.myspringbootbasetest.aspect.simple;
 
 import org.springframework.stereotype.Service;
 

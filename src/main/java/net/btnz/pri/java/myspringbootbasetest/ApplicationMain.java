@@ -1,16 +1,9 @@
-package net.btnz.pri.java.spring;
+package net.btnz.pri.java.myspringbootbasetest;
 
 import com.alibaba.fastjson.JSON;
-import net.btnz.pri.java.spring.web.ConnectConfig;
-import org.springframework.boot.Banner;
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
-import org.springframework.boot.builder.SpringApplicationBuilder;
-import org.springframework.boot.context.properties.EnableConfigurationProperties;
-import org.springframework.context.annotation.EnableAspectJAutoProxy;
-import org.springframework.core.env.Environment;
 
-import java.io.PrintStream;
 import java.text.SimpleDateFormat;
 import java.util.Date;
 import java.util.HashMap;

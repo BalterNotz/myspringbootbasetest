@@ -1,4 +1,4 @@
-package net.btnz.pri.java.spring.aspect;
+package net.btnz.pri.java.myspringbootbasetest.aspect;
 
 import org.aspectj.lang.annotation.After;
 import org.aspectj.lang.annotation.Aspect;
@@ -22,7 +22,7 @@ public class TimeAspect {
     /**
      * 切入点，在哪里切入，施加影响
      */
-    @Pointcut("execution(* net.btnz.pri.java.spring.aspect.HelloWorld.*(..))")
+    @Pointcut("execution(* net.btnz.pri.java.myspringbootbasetest.aspect.HelloWorld.*(..))")
     public void addAllMethod(){
 
     }

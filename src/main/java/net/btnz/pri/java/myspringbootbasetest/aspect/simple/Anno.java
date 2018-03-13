@@ -1,4 +1,4 @@
-package net.btnz.pri.java.spring.aspect.simple;
+package net.btnz.pri.java.myspringbootbasetest.aspect.simple;
 
 import java.lang.annotation.ElementType;
 import java.lang.annotation.Retention;

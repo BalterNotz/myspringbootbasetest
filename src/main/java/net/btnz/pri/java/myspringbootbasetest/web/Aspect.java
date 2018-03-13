@@ -1,6 +1,6 @@
-package net.btnz.pri.java.spring.web;
+package net.btnz.pri.java.myspringbootbasetest.web;
 
-import net.btnz.pri.java.spring.aspect.HelloWorld;
+import net.btnz.pri.java.myspringbootbasetest.aspect.HelloWorld;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RequestMethod;
 import org.springframework.web.bind.annotation.RestController;
