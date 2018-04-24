@@ -10,8 +10,10 @@
     <version>1.0-SNAPSHOT</version>
 
     <modules>
-        <module>asynchttptest</module>
         <module>springbootbasetest</module>
+        <module>springbootcli</module>
+        <module>asynchttp</module>
+        <module>springbootremoteshell</module>
     </modules>
 
     <parent>
@@ -48,6 +50,11 @@
             <groupId>org.springframework.boot</groupId>
             <artifactId>spring-boot-starter-security</artifactId>
             <version>1.4.2.RELEASE</version>
+        </dependency>
+
+        <dependency>
+            <groupId>org.springframework.boot</groupId>
+            <artifactId>spring-boot-starter-remote-shell</artifactId>
         </dependency>
 
         <dependency>
