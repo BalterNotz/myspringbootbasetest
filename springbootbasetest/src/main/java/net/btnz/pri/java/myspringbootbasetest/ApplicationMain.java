@@ -1,9 +1,12 @@
 package net.btnz.pri.java.myspringbootbasetest;
 
 import com.alibaba.fastjson.JSON;
+import net.btnz.pri.java.myspringbootbasetest.annotation.PostConstructTest;
+import net.btnz.pri.java.myspringbootbasetest.annotation.PostConstructTestHelper;
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
 
+import javax.annotation.Resource;
 import java.text.SimpleDateFormat;
 import java.util.Date;
 import java.util.HashMap;
@@ -14,8 +17,16 @@ import java.util.Map;
  */
 @SpringBootApplication
 public class ApplicationMain {
+
+    @Resource
+    private PostConstructTestHelper postConstructTestHelper;
+
+    @Resource
+    private PostConstructTest postConstructTest;
+
     public static void main(String[] args) {
-//        SpringApplication.run(ApplicationMain.class, args);
+
+        //        SpringApplication.run(ApplicationMain.class, args);
 //        new SpringApplicationBuilder().sources(ApplicationMain.class).run(args);
 //        SpringApplication application = new SpringApplication(ApplicationMain.class);
 //        Banner banner = new Banner() {
