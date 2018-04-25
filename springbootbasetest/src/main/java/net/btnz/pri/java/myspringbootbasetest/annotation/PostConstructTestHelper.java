@@ -13,6 +13,6 @@ public class PostConstructTestHelper {
     @PostConstruct
     public void runPostConstruct() {
         System.out.println("in PostConstructHelper " + postConstructTest.getReference());
-        System.out.println("in PostConstructHelper " + PostConstructTest.staticRef);
+        System.out.println("in PostConstructHelper " + PostConstructTest.getStaticRef());
     }
 }

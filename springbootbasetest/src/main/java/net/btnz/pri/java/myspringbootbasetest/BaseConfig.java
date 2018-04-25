@@ -18,10 +18,13 @@ public class BaseConfig {
         return WebMvcConfigUtil.buildWebMvcConfigurer();
     }
 
-    @Bean
-    public EmbeddedServletContainerCustomizer embeddedServletContainerCustomizer() {
-        return (ConfigurableEmbeddedServletContainer container) -> {
-            container.setPort(8080);
-        };
-    }
+    /**
+     * 可以在application配置文件中写server.port=8080
+     */
+//    @Bean
+//    public EmbeddedServletContainerCustomizer embeddedServletContainerCustomizer() {
+//        return (ConfigurableEmbeddedServletContainer container) -> {
+//            container.setPort(8080);
+//        };
+//    }
 }

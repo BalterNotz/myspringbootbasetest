@@ -18,12 +18,6 @@ import java.util.Map;
 @SpringBootApplication
 public class ApplicationMain {
 
-    @Resource
-    private PostConstructTestHelper postConstructTestHelper;
-
-    @Resource
-    private PostConstructTest postConstructTest;
-
     public static void main(String[] args) {
 
         //        SpringApplication.run(ApplicationMain.class, args);

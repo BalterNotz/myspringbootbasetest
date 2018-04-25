@@ -17,7 +17,7 @@ import java.util.concurrent.atomic.AtomicReference;
 @Component
 public class PostConstructTest {
     private AtomicReference<String> reference = new AtomicReference<>();
-    public static AtomicReference<String> staticRef = new AtomicReference<>();
+    private static final AtomicReference<String> staticRef = new AtomicReference<>();
 
     static {
         System.out.println("PostConstructTest: in static, staticRef is: " + JSON.toJSONString(staticRef));
@@ -25,6 +25,7 @@ public class PostConstructTest {
 
     public PostConstructTest() {
         System.out.println("PostConstructTest: in construct, staticRef is: " + JSON.toJSONString(staticRef) + " reference is: " + JSON.toJSONString(reference));
+        if(null == reference) reference = new AtomicReference<>();
     }
 
     @PostConstruct
@@ -51,9 +52,5 @@ public class PostConstructTest {
 
     public static AtomicReference<String> getStaticRef() {
         return staticRef;
-    }
-
-    public static void setStaticRef(AtomicReference<String> staticRef) {
-        PostConstructTest.staticRef = staticRef;
     }
 }
