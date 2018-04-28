@@ -1,12 +1,11 @@
-package net.btnz.pri.java.myspringbootbasetest.springbootcli;
+package net.btnz.pri.java.myspringbootbasetest.springbootbasetest.asynchttp;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
 
 @SpringBootApplication
 public class MainApplication {
-
-    public static void main(String... args) {
+    public static void main(String...args) {
         SpringApplication.run(MainApplication.class);
         System.out.println("Hello world!");
     }

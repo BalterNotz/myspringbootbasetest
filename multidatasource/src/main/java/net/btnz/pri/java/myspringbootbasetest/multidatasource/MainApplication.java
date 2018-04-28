@@ -1,4 +1,4 @@
-package net.btnz.pri.java.myspringbootbasetest.springbootcli;
+package net.btnz.pri.java.myspringbootbasetest.multidatasource;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
@@ -8,6 +8,5 @@ public class MainApplication {
 
     public static void main(String... args) {
         SpringApplication.run(MainApplication.class);
-        System.out.println("Hello world!");
     }
 }

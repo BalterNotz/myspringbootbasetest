@@ -1,0 +1,26 @@
+spring:
+  datasource:
+    mysqltemp:
+      type: com.alibaba.druid.pool.DruidDataSource
+      name: localhost_3306_temp
+      url: jdbc:mysql://localhost:3306/temp?characterEncoding=UTF-8&useSSL=true&&serverTimezone=GMT
+      username: temp
+      password: temp
+      driver-class-name: com.mysql.jdbc.Driver
+      initialSize: 5
+    postgresqltemp:
+      type: com.mchange.v2.c3p0.ComboPooledDataSource
+      name: localhost_5432_temp
+      jdbcUrl: jdbc:postgresql://localhost:5432/temp
+      user: temp
+      password: temp
+      driver-class-name: org.postgresql.Driver
+      initialPoolSize: 5
+    postgresqlpostgres:
+      type: org.apache.commons.dbcp2.BasicDataSource
+      name: localhost_5432_postgres
+      url: jdbc:postgresql://localhost:5432/postgres
+      username: postgres
+      password: BalterNotz
+      driver-class-name: org.postgresql.Driver
+      initialSize: 5
