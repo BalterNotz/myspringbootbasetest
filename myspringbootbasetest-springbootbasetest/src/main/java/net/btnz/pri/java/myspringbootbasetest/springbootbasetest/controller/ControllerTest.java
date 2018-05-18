@@ -9,7 +9,8 @@ import org.springframework.web.bind.annotation.RestController;
 import javax.annotation.Resource;
 import java.util.concurrent.atomic.AtomicReference;
 
-public abstract class ControllerTest {
+//@RestController
+public class ControllerTest {
 
     @Resource
     private PostConstructTest postConstructTest;
